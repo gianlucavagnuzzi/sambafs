@@ -1,9 +1,9 @@
 
-# https://hub.docker.com/repository/docker/rardcode/sambafs/tags
+# https://hub.docker.com/repository/docker/gianlucavagnuzzi/sambafs/tags
 
 services:
   sambafs:
-    image: rardcode/sambafs
+    image: gianlucavagnuzzi/sambafs
     container_name: sambafs
     restart: unless-stopped
     privileged: true
