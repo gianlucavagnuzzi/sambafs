@@ -3,7 +3,7 @@
 FROM alpine:3.23.4
 
 # https://pkgs.alpinelinux.org/packages?name=samba&branch=v3.23&repo=&arch=x86_64&origin=&flagged=&maintainer=
-ENV sambaV="samba=~4.22.8-r0"
+ENV sambaV="samba=~4.22.10-r0"
 
 LABEL org.opencontainers.image.authors="rardcode <sak37564@ik.me>"
 LABEL Description="Chrony server based on Alpine."
