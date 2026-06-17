@@ -1,6 +1,6 @@
 
 # https://hub.docker.com/_/alpine/tags
-FROM alpine:3.24.0
+FROM alpine:3.24.1
 
 # https://pkgs.alpinelinux.org/packages?name=samba&branch=v3.23&repo=&arch=x86_64&origin=&flagged=&maintainer=
 ENV sambaV="samba=~4.23.8-r0"
