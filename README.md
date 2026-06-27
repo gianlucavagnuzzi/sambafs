@@ -10,7 +10,7 @@ Simple Samba file server.
 ## Installation
 ```
 cd /opt
-git clone https://github.com/rardcode/sambafs.git
+git clone https://github.com/gianlucavagnuzzi/sambafs.git
 cd /opt/sambafs
 ```
 Launch docker the first time: a simple smb.conf will be created in data/ dir.\
@@ -27,13 +27,13 @@ docker run -d -p 139:139 -p 445:445 \
  -e GROUP1=groupname|user1|user2 \ # optional
  -v "/srv/samba:/srv/samba" \
  -v "./data:/data" \
- rardcode/sambafs \
+ gianlucavagnuzzi/sambafs \
 ```
 ### With docker-compose file
 ```
 services:
   sambafs:
-    image: rardcode/sambafs
+    image: gianlucavagnuzzi/sambafs
     container_name: sambafs
     restart: unless-stopped
     ports:
